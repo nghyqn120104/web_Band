@@ -1,0 +1,84 @@
+@media (min-width: 1024px) {}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .contact-infor .col-half-control {
+        width: 97%;
+    }
+}
+
+@media (max-width: 739px) {
+
+    .full{
+        width: 100%;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #2196F3;
+        color: #000;
+    }
+
+    #nav .subnav a {
+        padding: 6px 30px;
+    }
+
+
+    #content .places-items {
+        margin-bottom: 15px;
+    }
+
+    .contact .contact-infor {
+        width: 100%;
+        line-height: 27px;
+    }
+}
+
+@media (max-width: 1023px) {
+    #content .places-buy-btn {
+        padding: 16px;
+    }
+
+    .contact-infor .col-half-control {
+        padding: 15px;
+    }
+
+    .contact-infor .col-only-control {
+        padding: 15px;
+    }
+
+    #footer p,#footer a {
+        font-size: 30px;
+    }
+
+    .footer-icon p{
+        margin: 0px 8px;
+    }
+
+    #footer .footer-end{
+        margin: 20px 0px;
+    }
+}
